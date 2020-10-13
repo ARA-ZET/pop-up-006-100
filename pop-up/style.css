@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  }
+
+.component-overlay {
+  background-image: linear-gradient(to bottom,rgb(147, 163, 173), rgb(244, 246, 247));
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.component {
+  margin: 6rem auto;
+  width: 20rem;
+  position: relative;
+  display: flex;
+  /* box-shadow: 1px 1px 2px 4px rgb(212, 212, 212), 1px 1px 6px 6px rgb(128, 130, 131); */
+  background-color: rgb(32, 114, 168);
+  flex-direction: column;
+  padding: 5rem 2rem;
+  border-radius: .4rem;
+}
+
+button {
+  border-radius: .5rem;
+  margin-top: 1rem;
+  padding: .8rem;
+  font-size: 1.1rem;
+  border: 1px solid rgb(212, 211, 211);
+}
+
+.subscribe {
+  background-color: rgb(241, 124, 45);
+  color: white;
+  border: 0;
+}
+img {
+  width: 85%;
+}
+
+h2, p {
+  color: rgb(231, 231, 231);
+  font-style: italic;
+}
